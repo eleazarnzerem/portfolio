@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-nunito{
+  font-family: Nunito, sans-serif;
+}
+.border-r{
+  border-radius: 50% 25%;
+}
+
+.smooth{
+  @apply transition-all duration-[900ms]
+}
